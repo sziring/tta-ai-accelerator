@@ -1,0 +1,22 @@
+[package]
+name = "tta_simulator"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+extended-kernels = []
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+thiserror = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.8"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

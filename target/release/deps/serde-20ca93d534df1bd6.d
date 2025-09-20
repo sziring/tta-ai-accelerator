@@ -1,0 +1,14 @@
+/home/unknown/ai-time-traveler/rust_code/tta_simulator/target/release/deps/serde-20ca93d534df1bd6.d: /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/lib.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/integer128.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/mod.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/de.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/ser.rs /home/unknown/ai-time-traveler/rust_code/tta_simulator/target/release/build/serde-60e2bce1588e0574/out/private.rs
+
+/home/unknown/ai-time-traveler/rust_code/tta_simulator/target/release/deps/libserde-20ca93d534df1bd6.rlib: /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/lib.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/integer128.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/mod.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/de.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/ser.rs /home/unknown/ai-time-traveler/rust_code/tta_simulator/target/release/build/serde-60e2bce1588e0574/out/private.rs
+
+/home/unknown/ai-time-traveler/rust_code/tta_simulator/target/release/deps/libserde-20ca93d534df1bd6.rmeta: /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/lib.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/integer128.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/mod.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/de.rs /home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/ser.rs /home/unknown/ai-time-traveler/rust_code/tta_simulator/target/release/build/serde-60e2bce1588e0574/out/private.rs
+
+/home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/lib.rs:
+/home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/integer128.rs:
+/home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/mod.rs:
+/home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/de.rs:
+/home/unknown/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.225/src/private/ser.rs:
+/home/unknown/ai-time-traveler/rust_code/tta_simulator/target/release/build/serde-60e2bce1588e0574/out/private.rs:
+
+# env-dep:OUT_DIR=/home/unknown/ai-time-traveler/rust_code/tta_simulator/target/release/build/serde-60e2bce1588e0574/out

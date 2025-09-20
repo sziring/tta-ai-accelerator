@@ -1,0 +1,41 @@
+# Yosys synthesis script for TTA VECMAC unit
+# This script synthesizes our RTL design and provides area/power estimates
+
+# Read the design
+read_verilog vecmac_rtl.v
+
+# Set the top module
+hierarchy -top tta_vecmac_wrapper
+
+# High-level synthesis steps
+proc
+opt_clean
+check
+
+# Technology-independent optimizations
+opt -purge
+fsm
+opt
+memory
+opt
+
+# Technology mapping (using built-in library for initial estimates)
+techmap
+opt
+
+# ABC optimization (logic synthesis)
+abc -fast
+opt_clean
+
+# Generate statistics
+stat
+
+# Write out the synthesized netlist
+write_verilog -noattr vecmac_synthesized.v
+
+# Print detailed statistics
+stat -top tta_vecmac_wrapper
+
+echo "Synthesis complete!"
+echo "Key metrics:"
+echo "============"

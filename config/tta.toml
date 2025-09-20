@@ -1,0 +1,56 @@
+[processor]
+name = "TTA-Test"
+issue_width = 2
+pipeline_depth = 1
+
+[[functional_units]]
+fu_type = "ALU"
+count = 1
+latency_cycles = 1
+
+[[functional_units]]
+fu_type = "IMM"
+count = 1
+latency_cycles = 0
+
+[[functional_units]]
+fu_type = "SPM"
+count = 1
+latency_cycles = 1
+
+[functional_units.config]
+bank_count = 2
+bank_size_bytes = 16384
+
+[buses]
+count = 2
+width_bits = 32
+transport_energy_per_bit = 0.02
+
+[energy.functional_units]
+sub16 = 8.0
+vecmac8x8_to_i32 = 40.0
+reduce_sum16 = 10.0
+reduce_argmax16 = 16.0
+mul16 = 24.0
+add16 = 8.0
+
+[energy.transport]
+alpha_per_bit_toggle = 0.02
+beta_base = 1.0
+
+[energy.memory]
+spm_read_32b = 10.0
+regfile_read = 4.0
+spm_write_32b = 12.0
+regfile_write = 6.0
+
+[memory.scratchpad]
+bank_count = 2
+bank_size_bytes = 16384
+latency_cycles = 1
+
+[memory.register_file]
+size = 32
+read_ports = 2
+write_ports = 1
